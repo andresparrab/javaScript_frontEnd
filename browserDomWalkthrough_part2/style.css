@@ -1,0 +1,32 @@
+* {
+    background-color: aqua;
+    text-align: center;
+}
+
+#main-header {}
+
+.container {
+
+    border: solid 2px crimson;
+}
+
+nav {
+
+    align-items: center;
+
+}
+
+ul {
+    padding: 1vw;
+}
+
+li > * {
+
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 1vw;
+    padding: 2vw;
+    display: block;
+    text-align: center;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
