@@ -12,20 +12,19 @@ const person = {
 }
 
 while (name != person.name | password != person.password) {
-  
-name = prompt("andvändarnamn: ")
-password = prompt("Lösenord: ")
 
-if (name == person.name) {
-  if (password == person.password) {
-    console.log(`welcome: ${person.name}, with mobilenr: ${person.mobile}`)
+  if (name == person.name) {
+    if (password == person.password) {
+      console.log(`welcome: ${person.name}, with mobilenr: ${person.mobile}`)
+    }
+
+    else {
+      console.log(`The password is incorrect`)
+    }
   }
-
   else {
-    console.log(`The password is incorrect`)
-  }
-}
-else {
-  console.log(`The username: ${person.name} does not exist`)
-}
+    console.log(`The username: ${person.name} does not exist`)
+  } name = prompt("andvändarnamn: ")
+  password = prompt("Lösenord: ")
+
 }
