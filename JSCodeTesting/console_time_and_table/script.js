@@ -30,9 +30,29 @@
 // }
 //
 
+// a simple timer to calculate the time of something 
+// console.log("Testing the forloop performance")
 console.time();
-for (let index = 0; index < 1000; index++) {
-console.log("hej");
+for (let index = 0; index < 10000; index++) {
+  console.log("hej");
 
 }
-  console.timeEnd();
+console.timeEnd();
+
+// calculate sam thing but in the while loop
+// console.log("testing the whileloop performance")
+// console.time()
+// i = 0
+// while (i < 10000) {
+//   i++
+// }
+//
+// Creating a object and print it out in table mode
+// console.timeEnd()
+person = {
+  username: "andres",
+  age: 41,
+  phone: 089998
+
+}
+console.table(person);

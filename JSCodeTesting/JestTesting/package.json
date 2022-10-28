@@ -1,0 +1,22 @@
+{
+  "name": "megatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresparrab/javaScript_frontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresparrab/javaScript_frontEnd/issues"
+  },
+  "homepage": "https://github.com/andresparrab/javaScript_frontEnd#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
