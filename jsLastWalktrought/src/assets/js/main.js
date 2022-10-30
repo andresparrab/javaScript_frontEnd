@@ -1,0 +1,7 @@
+let nav = document.createElement('nav')
+let para = document.createElement('p')
+let textnode = document.createTextNode("this inseide the nav")
+para.appendChild(textnode)
+let body = document.querySelector('body')
+nav.append(para)
+body.appendChild(nav)
