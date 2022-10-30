@@ -15,8 +15,13 @@ const quotes = [{
     person: `"Person Fyra"`
 },];
 
-btn.addEventListener('mouseover', function() {
-    let random = Math.floor(Math.random() * quotes.length);
-    quote.innerText = quotes[random].quote;
-    person.innerText = quotes[random].person;
+btn.addEventListener('mouseover', () =>{
+  let random = Math.floor(Math.random() * quotes.length)
+  quote.innerHTML = quotes[random].quote;
+  person.innerText = quotes[random].person;
 });
+// btn.addEventListener('mouseover', function() {
+//     let random = Math.floor(Math.random() * quotes.length);
+//     quote.innerText = quotes[random].quote;
+//     person.innerText = quotes[random].person;
+// });
